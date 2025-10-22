@@ -3,7 +3,7 @@ name: Generate and Obfuscate Worker Script
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 8 * * *'
 
 jobs:
   build-and-obfuscate:
